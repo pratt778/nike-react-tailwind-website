@@ -5,7 +5,7 @@ const Shoecard=({currentImg,changeImg,ImgStore})=>{
         }
     }
  return <>
- <div className={`card rounded-3xl border-2 p-4 bg-hero bg-center bg-cover ${currentImg==ImgStore.bigShoe?'border-coral-red':'border-gray-300'}`} onClick={handleCard}>
+ <div className={`card rounded-3xl cursor-pointer border-2 p-4 bg-hero bg-center bg-cover ${currentImg==ImgStore.bigShoe?'border-coral-red':'border-gray-300'}`} onClick={handleCard}>
     <div className="my-card">
         <img 
         src={ImgStore.bigShoe} 

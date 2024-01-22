@@ -27,7 +27,7 @@ const Hero = () => {
                         })}
                     </div>
                 </div>
-                <div className="bottom-hero pt-10  xl:min-h-screen py-20 xl:py-0 sm:py-40 flex flex-1 relative z-9 justify-center items-center bg-primary bg-hero bg-cover bg-center">
+                <div className="bottom-hero pt-10 mt-10  xl:min-h-screen py-20 xl:py-0 sm:py-40 flex flex-1 relative z-9 justify-center items-center bg-primary bg-hero bg-cover bg-center">
                     <img src={bigshoeImg} alt="" width={610} height={502} className='' />
                     <div className="cards flex absolute -bottom-[9%] gap-2 px-2 sm: left-[5%]">
                        {shoes.map((element)=>{

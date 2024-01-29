@@ -10,8 +10,6 @@ const Subscribe = ()=>{
         <Button label='Sign Up' fullWidth/>
     </div>
     </div>
-    
     </>
 }
-
 export default Subscribe;
